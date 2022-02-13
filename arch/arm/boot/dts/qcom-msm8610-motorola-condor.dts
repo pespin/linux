@@ -2,17 +2,17 @@
 /*
  * Copyright (c) 2021, Ivaylo Ivanov <ivo.ivanov@null.net>
  * Copyright (c) 2021, Konrad Dybcio <konrad.dybcio@somainline.org>
+ * Copyright (c) 2022, Pau Espin Pedrol <pespin@espeweb.net>
  */
 /dts-v1/;
 
-#include "qcom-msm8212.dtsi"
+#include "qcom-msm8610.dtsi"
 
 / {
-	model = "Microsoft Lumia 535";
-	compatible = "microsoft,chakra","qcom,msm8212";
+	model = "Motorola Moto E (1st Gen)";
+	compatible = "motorola,condor","qcom,msm8610";
 };
 
 &sdhc_1 {
 		status = "ok";
 };
-

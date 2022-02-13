@@ -2,6 +2,7 @@
 /*
  * Copyright (c) 2021, Ivaylo Ivanov <ivo.ivanov@null.net>
  * Copyright (c) 2021, Konrad Dybcio <konrad.dybcio@somainline.org>
+ * Copyright (c) 2022, Pau Espin Pedrol <pespin@espeweb.net>
  */
 /dts-v1/;
 
@@ -49,20 +50,6 @@
 			compatible = "arm,cortex-a7";
 			device_type = "cpu";
 			reg = <1>;
-			next-level-cache = <&L2>;
-		};
-
-		CPU2: cpu@2 {
-			compatible = "arm,cortex-a7";
-			device_type = "cpu";
-			reg = <2>;
-			next-level-cache = <&L2>;
-		};
-
-		CPU3: cpu@3 {
-			compatible = "arm,cortex-a7";
-			device_type = "cpu";
-			reg = <3>;
 			next-level-cache = <&L2>;
 		};
 	};
